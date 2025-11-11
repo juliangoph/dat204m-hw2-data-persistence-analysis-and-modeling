@@ -199,5 +199,5 @@ create table if not exists brn_indicators (
 
 ---
 
-© 2025 De La Salle University – MS Data Science  
-Authors: 
+© 2025 De La Salle University – Masters of Science Data Science  
+Authors: Julian Roger Go, Charisse Nethercott, Gabriel Masangkay, John Carlo Gonzales, Edmar Dizon
