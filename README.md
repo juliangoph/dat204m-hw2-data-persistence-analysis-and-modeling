@@ -11,7 +11,7 @@ Term 1 AY 2025–2026
 
 This project demonstrates a complete data pipeline from **local CSV → cloud database → analysis notebook**.
 
-It builds directly on **HW1 (data cleaning)** and fulfills the HW2 objectives:
+It builds directly on **HW1 (data collection and cleaning)** and fulfills the HW2 objectives:
 
 1. Persist clean data into a **cloud database** (Supabase).  
 2. Query data **directly from the cloud** for exploratory data analysis (EDA) and modeling.  
@@ -23,7 +23,10 @@ It builds directly on **HW1 (data cleaning)** and fulfills the HW2 objectives:
 ## ⚙️ Architecture
 
 ```
-CSV (clean dataset)
+🗄️ 00_data_collection.ipynb
+     │
+     ▼
+📄 CSV (clean dataset)
      │
      ▼
 🧩 01_upload_to_db.ipynb
@@ -48,8 +51,9 @@ CSV (clean dataset)
 
 | File | Description |
 |------|--------------|
-| `01_upload_to_db.ipynb` | Data persistence notebook — uploads the cleaned CSV to Supabase securely. |
-| `02_analysis_from_db.ipynb` | Analysis notebook — queries from Supabase, performs EDA & ML modeling. |
+| `00_data_collection.ipynb` | Collects data from World Bank Open Data. |
+| `01_upload_to_db.ipynb` | Uploads the cleaned CSV to Supabase securely. |
+| `02_analysis_from_db.ipynb` | Queries from Supabase, performs EDA & ML modeling. |
 | `requirements.txt` | List of Python dependencies (see below). |
 | `.env` *(not committed)* | Environment variables for Supabase credentials. |
 | `README.md` | This documentation file. |
