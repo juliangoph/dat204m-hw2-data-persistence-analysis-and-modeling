@@ -178,6 +178,7 @@ create table if not exists brn_indicators (
 
 | Deliverable | Description | Status |
 |--------------|-------------|--------|
+| ✅ Notebook 1 | World Bank open data -> CSV | Complete (from HW1) |
 | ✅ Notebook 1 | CSV → Supabase Pipeline | Complete |
 | ✅ Notebook 2 | Supabase → EDA + ML | Complete |
 | ✅ requirements.txt | Dependencies | Included |
